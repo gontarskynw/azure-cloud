@@ -11,6 +11,6 @@ public class PetstoreappApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PetstoreappApplication.class, args);
-		logger.info("PetStoreApp started up... " + System.getProperty("catalina.base"));
+		logger.info("PetStoreApp with tests will started up... " + System.getProperty("catalina.base"));
 	}
 }
